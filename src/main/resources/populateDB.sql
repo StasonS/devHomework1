@@ -16,7 +16,7 @@ INSERT INTO customers (customer_name) VALUES
   ('OOO Rosinka'), ('OOO Podsolnushek'), ('OOO Gazprom');
 
 INSERT INTO customer_project VALUES
-  (1, 1), (1, 3), (1, 5), (2, 2), (2, 4), (3, 6), (3, 7);
+  (1, 1), (2, 3), (1, 5), (2, 2), (2, 4), (3, 6), (3, 7);
 
 INSERT INTO company_projects VALUES
   (1, 2), (1, 4), (1, 7), (2, 1), (2, 3), (3, 5), (3, 6);
