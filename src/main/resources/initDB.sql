@@ -16,12 +16,12 @@ CREATE TABLE projects(
 
 CREATE TABLE companies(
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  project_name VARCHAR(50) NOT NULL
+  company_name VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE customers(
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  project_name VARCHAR(50) NOT NULL
+  customer_name VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE dev_skill (
